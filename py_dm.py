@@ -3,6 +3,8 @@
 import subprocess as sb
 import shutil as sh
 import json as j
+import simpleHTTPServer as http
+import time
 
 '''
 whoJson, topJson== {"data":[obj, obj, obj, obj,...], "users":[user1,user2,user3,...not duplicatively]}
@@ -16,7 +18,7 @@ def invokeTop():
 		dump_list=[]
 
         users_list=[]
-		with open(topJson.json, "w") as tj:
+		with open("topJson.json", "w") as tj:
 			for i in range(8,len(lines_list)):                 
 				split=lines[i].split()
 				obj={}
@@ -24,7 +26,7 @@ def invokeTop():
                 users_list.append(obj["user"])
 				obj["cpu"]=split[8]				#cpu =col 8
 				obj["process_name"]=split[11]	#pname=col 11
-				obj["timestamp"]=split[10]		#tstmp=col 10
+#				obj["timestamp"]=split[10]		#tstmp=col 10
 				dump_list.append(obj)
 			users_list=list(set(users_list))
             wrap_dict={"data":dump_list, "users":users_list}
@@ -60,11 +62,11 @@ def invokeWho():
     whoJson=who_parse(whoout)
     return None
 
-def mergeJson(whoJson, topJson):
+def mergeJson(whoJson, topJson): #both param are string
     #top/whoJson.json --> conserved
-     
-    sh.copyfile("topJson.json","mergeJson.json")
-    with open("whoJson.json"), open("mergeJson") as wj, mj:
+    mergeJson="mergeJson.json"
+    sh.copyfile(topJson,mergeJson)
+    with open(whoJson), open(mergeJson) as wj, mj:
         wData, mData=j.load(wj), j.load(mj),
         #remove sysuser
         for i,user in enumerate(mData["users"]):
@@ -79,9 +81,44 @@ def mergeJson(whoJson, topJson):
         del mData["users"] #removing users attribute in mergeJson.json
         # mergeJson--> {"data":[obj, obj, obj, obj,...]}
 
+def checkHeavyUser(Json): #Json==filename(str)==mergeJson.json
+	'''
+	need to calc sumup %cpu over cumulate json
+
+
+	'''
+	with open(Json) as file:
+		Data=j.load(file)
+		sum_up={}
+		for username in Data["users"]:
+			tot_
+			sum_up[username]=
+
+
+	return None 
+def sendJson(Json) # send Json file to http server
+	#send cumulated Json
+	return None 
+
+
+def saveJson()
+'''
+oneshot-->cumulate
+[
+	{timestamp, oneshot_list},
+	{timestamp, oneshot_list},
+	{timestamp, oneshot_list},
+]
+'''
+
+def examineSys():
+	invokeWho()
+	invokeTop()
+	mergeJson("whoJson.json","topJson.json")
+
 
 
 if __name__=="__main__":
     while 1:
-        sleep(300)
+        time.sleep(300)
         examineSys()

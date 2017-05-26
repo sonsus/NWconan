@@ -1,0 +1,20 @@
+
+sendJson() sends Json structured like below 
+
+{
+	data:
+	{
+	"user"=
+	"cpu"=
+	"proc" (changed from process_name)
+	}
+
+	tstmp:
+	{
+	"yr"=str
+	"month"=str
+	"date"=str (27)
+	"second"=int (hr/min/sec summed up in seconds)
+
+	}
+}
