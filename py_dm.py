@@ -5,7 +5,7 @@ import shutil as sh
 import json as j
 import http
 import datetime as dt
-from os.path import isfile
+from os.path import isfile, getsize
 from time import sleep
 
 
@@ -83,31 +83,40 @@ def invokeWho():
     whoJson=who_parse("whoout")
     return None
 
-def mergeJson(whoJson, topJson): #both param are string
+
+def mergeJson(topJson, whoJson): #both param are string
     #mergeJson initialized
     mergeJson="mergeJson.json"
+
     if not isfile(mergeJson):
-        init=open(merJson, "w")
-        j.dump([], init, indent=4)
+        init = open(mergeJson, "w")
         init.close()
-    #1st: remove sysusers in topJson
-    with open(whoJson), open(topJson), open(mergeJson) as wj, tj, mj:
-        wData, tData, mData=j.load(wj), j.load(tj), j.load(mj)
-        #remove sysuser from topJson loaded
-        for i,user in enumerate(mData["users"]):
-            if user not in wData["users"]:
-                del tData["users"][i]
-                del tData["data"][i]
-        #append idle whoJson users
-        for i,user in enumerate(wData["users"]):
-            if user not in tData["users"]:
-                tData["users"].append(user)
-                tData["data"].append(wData["data"][i])
-        j.dump(tData, tj, indent=4)
-    #2nd: append it to mergeJson
-        del tData["users"] #now tData=={"tstmp":tstmp, "data":[obj,obj,...]} 
-        mData.append(tData)
-        j.dump(mData,mj,indent=4)
+    #open 
+    tj, wj= open(topJson), open(whoJson) 
+    tData, wData= j.load(tj), j.load(wj) 
+
+    #1st: remove sysuser from topJson loaded
+    for i,obj in enumerate(tData["data"]):
+        if obj["user"] not in wData["users"]:
+            del tData["data"][i]
+    #2nd: append idle whoJson users
+    for i,user in enumerate(wData["users"]):
+        if user not in tData["users"]:
+            tData["users"].append(user)
+            tData["data"].append(wData["data"][i])
+    wj.close()
+    tj.close()
+
+    #3rd: merge it to mergeJson
+    tj_w, mj_w = open(topJson,"w"), open(mergeJson,"w") 
+    if not getsize(mergeJson)>0: 
+        mData=[]
+    mData.append(tData) 
+    del mData[-1]["users"] #now mData==[{"tstmp":tstmp, "data":[obj,obj,...]}] 
+    j.dump(tData, tj_w, indent=4)
+    j.dump(mData, mj_w, indent=4)
+    tj_w.close()
+    mj_w.close()
 
 #def checkHeavyUser(Json): #Json==filename(str)==mergeJson.json
     '''
@@ -143,10 +152,10 @@ oneshot-->cumulate
 def examineSys():
     invokeWho()
     invokeTop()
-    mergeJson("whoJson.json","topJson.json")
+    mergeJson("topJson.json","whoJson.json")
 
 
 
 if __name__=="__main__":
-    invokeTop()
-    invokeWho()
+    sb.run("rm mergeJson.json",shell=True)
+    examineSys()

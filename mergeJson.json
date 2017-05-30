@@ -1,0 +1,747 @@
+[
+    {
+        "tstmp": "2017-05-31 07:15:07",
+        "data": [
+            {
+                "user": "root",
+                "cpu": "6.2",
+                "process_name": "Xorg"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "process_name": "compiz"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "process_name": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "process_name": "sublime_te+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "process_name": "top"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kthreadd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "ksoftirqd/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "migration/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "watchdog/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "cpuhp/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "migration/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/1:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "watchdog/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "ksoftirqd/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "cpuhp/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "migration/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/3:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "netns"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "oom_reaper"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kcompactd0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "khugepaged"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kintegrityd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kblockd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "md"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "watchdogd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kswapd0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kthrotld"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "ipv6_addrc+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "scsi_eh_0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "scsi_eh_1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "scsi_eh_2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "scsi_eh_3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/2:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/3:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "jbd2/sda7-8"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "ureadahead"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "systemd-ud+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "cfg80211"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "acpid"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "cron"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "ModemManag+"
+            },
+            {
+                "user": "whoopsie",
+                "cpu": "0.0",
+                "process_name": "whoopsie"
+            },
+            {
+                "user": "message+",
+                "cpu": "0.0",
+                "process_name": "dbus-daemon"
+            },
+            {
+                "user": "avahi",
+                "cpu": "0.0",
+                "process_name": "avahi-daem+"
+            },
+            {
+                "user": "syslog",
+                "cpu": "0.0",
+                "process_name": "rsyslogd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "polkitd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "irqbalance"
+            },
+            {
+                "user": "systemd+",
+                "cpu": "0.0",
+                "process_name": "systemd-re+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "agetty"
+            },
+            {
+                "user": "colord",
+                "cpu": "0.0",
+                "process_name": "colord"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "lightdm"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "krfcommd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "systemd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "(sd-pam)"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gnome-keyr+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "run-system+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ssh-agent"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ibus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfsd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfsd-fuse"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ibus-dconf"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ibus-ui-gt+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ibus-x11"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "at-spi-bus+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "at-spi2-re+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "ibus-engin+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "systemctl"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "window-sta+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "bamfdaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "unity-sett+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gnome-sess+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "dconf-serv+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "pulseaudio"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "libertined"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "syndaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "unity-pane+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "nm-applet"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "polkit-gno+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "unity-fall+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "nautilus"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfs-udisk+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gnome-soft+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfs-gphot+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfs-goa-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfs-afc-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfs-mtp-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfsd-trash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "notify-osd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "hud-service"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "update-not+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "deja-dup-m+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "firefox"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gconfd-2"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gitkraken"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "rtsx_usb_m+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "cups-brows+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/2:2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/u9+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "hci0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "sd_dummy"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "sd_espeak-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "sd_generic"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "speech-dis+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfsd-netw+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gvfsd-dnssd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "gnome-term+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "bash"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/3:0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "plugin_host"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/u8+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "dhclient"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/0:2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/u8+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/1:2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "process_name": "kworker/2:0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "python"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "process_name": "sh"
+            }
+        ]
+    }
+]
