@@ -9,9 +9,14 @@ from os.path import isfile, getsize
 from time import sleep
 
 
-
 '''
-whoJson, topJson== 
+whoJson==
+    {
+        "data":
+        "users":
+    }
+
+topJson== 
     {
         "tstmp: string or None, 
         "data":[obj, obj, obj, obj,...], 
@@ -87,11 +92,15 @@ def invokeWho():
 def mergeJson(topJson, whoJson): #both param are string
     #mergeJson initialized
     mergeJson="mergeJson.json"
-
     if not isfile(mergeJson):
         init = open(mergeJson, "w")
         init.close()
-    #open 
+        mData=[]
+    else:
+        with open(mergeJson) as mj: 
+            mData=j.load(mj)
+
+    #open topJson and whoJson 
     tj, wj= open(topJson), open(whoJson) 
     tData, wData= j.load(tj), j.load(wj) 
 
@@ -109,8 +118,6 @@ def mergeJson(topJson, whoJson): #both param are string
 
     #3rd: merge it to mergeJson
     tj_w, mj_w = open(topJson,"w"), open(mergeJson,"w") 
-    if not getsize(mergeJson)>0: 
-        mData=[]
     mData.append(tData) 
     del mData[-1]["users"] #now mData==[{"tstmp":tstmp, "data":[obj,obj,...]}] 
     j.dump(tData, tj_w, indent=4)
@@ -118,44 +125,39 @@ def mergeJson(topJson, whoJson): #both param are string
     tj_w.close()
     mj_w.close()
 
-#def checkHeavyUser(Json): #Json==filename(str)==mergeJson.json
-    '''
-    need to calc sumup %cpu over cumulate json
 
-
-    '''
-#    with open(Json) as file:
-#        Data=j.load(file)
-#        sum_up={}
-#        for username in Data["users"]:
-##            tot_
-#            sum_up[username]=
-
+def checkHeavyUser(topJson, whoJson): #Json==filename(str)==mergeJson.json
+    with open(topJson) as tj:
+        tData=j.load(tj)
+    with open(whoJson) as wj:
+        wData=w.load(wj)
+    #to the top three cpu bruisers, send msg if they are not sysusers.
+    for i in range(3):
+        user=tj["data"][i]["user"]
+        if user in wData["users"]:
+            if not isfile("msg.txt"): 
+                with open(msg.txt, "w") as msg:
+                    msg.write("hey you are exploting too much! %s \n"%user)
+            sb.run("cat msg.txt | write %s"%user, shell =True) 
 
     return None 
+
+
 def sendJson(Json): # send Json file to http server
     #send cumulated Json
     return None 
 
 
-def saveJson():
-    return None 
-'''
-oneshot-->cumulate
-[
-    {timestamp, oneshot_list},
-    {timestamp, oneshot_list},
-    {timestamp, oneshot_list},
-]
-'''
 
 def examineSys():
     invokeWho()
     invokeTop()
     mergeJson("topJson.json","whoJson.json")
+    checkHeavyUser()
+    sendJson()
 
 
 
 if __name__=="__main__":
     sb.run("rm mergeJson.json",shell=True)
-    examineSys()
+    for i in range(4): examineSys()
