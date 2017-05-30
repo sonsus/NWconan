@@ -1,6 +1,8 @@
 POST
 url="localhost/data"        /data
- 
+timeformat : month, day, convert(hr,min,sec)-->sec
+
+
 
 obj{
 "user"=usernam
@@ -14,16 +16,18 @@ topJson(oneshot)
 "users":[user1,user2,user3]
 }
 
-
-
 mergeJson(oneshot)
 {
-"data":[obj,obj,obj,obj,obj,obj,]
+"data":[obj,obj,obj,obj,obj,obj,]    #pick only list from here and toss to cumulate
 }
 
-
 oneshot_list=json.load(mergeJson)["data"]
-
+timestamp{
+	"yr"=str
+	"month"=str
+	"day"=str
+	"time"=int (hr+min+sec as seconds)
+}
 
 oneshot-->cumulate
 [
@@ -34,6 +38,12 @@ oneshot-->cumulate
 
 
 list(set(user_list.append()))
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,11 @@
-a=[1,2,3,4,5]
-b=[3,4,5,6,7]
+with open("topout") as f:
+	print(f.splitlines())
 
-print(a,b)
-for e in a:
-    #if e not in b: del e
-    e=1
-print(a,b)
+'''
+import json as j
+with open("test.json", "w") as test:
+    test_dict={"a":[None,None,3,4], "b":[1,2,3,4]}
+    j.dump(test_dict, test, indent=4)
+
+
+'''
