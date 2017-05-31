@@ -138,14 +138,15 @@ def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
     with open(mergeJson) as mj:
         mData=j.load(mj)       
         for i in range(3):
-            rank=i
+            #rank=i
             user=mData[-1]["data"][i]["user"]
-            cpu =mData[-1]["data"][i]["cpu"] + "%"
+            cpu =mData[-1]["data"][i]["cpu"]
             proc=mData[-1]["data"][i]["proc"]
-            if not isfile("msg.txt"): 
+            #if usage exceeds 70% send msg to terminal
+            if  cpu > 70:
                 with open("msg.txt", "w") as msg:
-                    msg.write("To %s (rank=%s): your process %s using %s of the cpu resource \n"%(user,rank,proc,cpu)) 
-            sb.run("cat msg.txt | write %s"%user, shell =True) 
+                    msg.write("warning to %s: your process %s using %s of the cpu resource \n"%(user,proc,str(cpu)+"%")) 
+            	sb.run("cat msg.txt | write %s"%user, shell =True) 
 
 
 def sendJson(Json): # send Json file to http server
