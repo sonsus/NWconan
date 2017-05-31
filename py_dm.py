@@ -190,5 +190,6 @@ if __name__=="__main__":
             print("running for %s hr(s)"%(time_elapsed/3600))            
             sendJson(mergeJson)
             start=time()
+            sb.run("rm mergeJson.json", shell=True)
         sleep(300)
 '''
