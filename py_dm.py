@@ -52,7 +52,7 @@ def invokeTop():
                 obj["user"]=split[1]            #user=col 1
                 users_list.append(obj["user"])
                 obj["cpu"]=split[8]                #cpu =col 8
-                obj["process_name"]=split[11]    #pname=col 11
+                obj["proc"]=split[11]    #pname=col 11
                 dump_list.append(obj)
             users_list=list(set(users_list))
             wrap_dict={"tstmp":tstmp, "data":dump_list, "users":users_list}
@@ -76,7 +76,7 @@ def invokeWho():
                 obj["user"]=line.split()[0]
                 users_list.append(obj["user"])
                 obj["cpu"]=None            #defaults to None
-                obj["process_name"]=None   
+                obj["proc"]=None   
                 dump_list.append(obj)
             users_list=list(set(users_list))
             wrap_dict={"data":dump_list, "users":users_list}
@@ -88,7 +88,7 @@ def invokeWho():
     return None
 
 
-def mergeJson(topJson, whoJson): #both param are string
+def merge_Json(topJson, whoJson): #both param are string
     #mergeJson initialized
     mergeJson="mergeJson.json"
     if not isfile(mergeJson):
@@ -135,21 +135,20 @@ def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
             cpu =mData[-1]["data"][i]["cpu"] + "%"
             proc=mData[-1]["data"][i]["proc"]
             if not isfile("msg.txt"): 
-                with open(msg.txt, "w") as msg:
+                with open("msg.txt", "w") as msg:
                     msg.write("To %s (rank=%s): your process %s using %s of the cpu resource \n"%(user,rank,proc,cpu)) 
             sb.run("cat msg.txt | write %s"%user, shell =True) 
 
 
 def sendJson(Json): # send Json file to http server
     port=8000
-    conn=http.client.HTTPConnection("localhost/data:{port}".format(port))
-    conn.request("POST", "localhost/data:{port}".format(port), str(j.load(Json)))
+    conn=http.client.HTTPConnection("localhost/data:{port}".format(port=port))
+    conn.request("POST", "localhost/data:{port}".format(port=[port]), str(j.load(Json)))
     response = conn.getresponse()
 
     request_res=response.read()
     print(request_res)
     conn.close()
-
     return None 
 
 
@@ -158,7 +157,7 @@ def examineSys():
     topJson, whoJson, mergeJson = "topJson.json", "whoJson.json", "mergeJson.json"
     invokeWho()
     invokeTop()
-    mergeJson(topJson,whoJson)
+    merge_Json(topJson,whoJson)
     checkHeavyUser(mergeJson)
 
 
@@ -166,12 +165,23 @@ def examineSys():
 
 if __name__=="__main__":
     sb.run("rm mergeJson.json",shell=True)
+    examineSys()
+    examineSys()
+    examineSys()
+    sendJson("mergeJson.json")
+
+
+
+
+'''
     start=time()
     while 1: 
-        print("Conan.py: Im here for inspect your resource usage")
-        examineSys()
         time_elapsed=time()-start
+        print("Conan.py: Im here for inspect your resource usage")
+        print("trial %s: now let\'s who\'s on the server? (every 5min)"%(int(time_elapsed/300)))
+        examineSys()
         if time_elapsed%86400==0:
             print("running for %s day(s)"%(time_elapsed/86400))            
             sendJson(mergeJson)
-        sleep(500)
+        sleep(300)
+'''

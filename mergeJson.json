@@ -1,0 +1,2192 @@
+[
+    {
+        "tstmp": "2017-05-31 19:17:28",
+        "data": [
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "proc": "compiz"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "proc": "sublime_te+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.2",
+                "proc": "top"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kthreadd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "rcu_bh"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "lru-add-dr+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "migration/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kdevtmpfs"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "khungtaskd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "writeback"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksmd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "crypto"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ata_sff"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "devfreq_wq"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kauditd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "vmstat"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ecryptfs-k+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "acpi_therm+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "charger_ma+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/0:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ext4-rsv-c+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "systemd-ud+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cfg80211"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "rtsx_usb_m+"
+            },
+            {
+                "user": "whoopsie",
+                "cpu": "0.0",
+                "proc": "whoopsie"
+            },
+            {
+                "user": "message+",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "repowerd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "systemd-lo+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "acpid"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cron"
+            },
+            {
+                "user": "avahi",
+                "cpu": "0.0",
+                "proc": "avahi-daem+"
+            },
+            {
+                "user": "avahi",
+                "cpu": "0.0",
+                "proc": "avahi-daem+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "polkitd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cups-brows+"
+            },
+            {
+                "user": "systemd+",
+                "cpu": "0.0",
+                "proc": "systemd-re+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bluetoothd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "agetty"
+            },
+            {
+                "user": "colord",
+                "cpu": "0.0",
+                "proc": "colord"
+            },
+            {
+                "user": "rtkit",
+                "cpu": "0.0",
+                "proc": "rtkit-daem+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "unity-gree+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "(sd-pam)"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-keyr+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "run-system+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ssh-agent"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-fuse"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-dconf"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-ui-gt+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-x11"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi-bus+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi2-re+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-engin+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemctl"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-sett+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bamfdaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "window-sta+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-sess+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dconf-serv+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "pulseaudio"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "libertined"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "syndaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-pane+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nm-applet"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "polkit-gno+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-fall+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nautilus"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-soft+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-udisk+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-gphot+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-goa-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-afc-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-mtp-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-trash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "hud-service"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-term+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "update-not+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "firefox"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "deja-dup-m+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gconfd-2"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-netw+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-dnssd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-meta+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/0:0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "notify-osd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/3:3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "dhclient"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "hci0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u9+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:1"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "plugin_host"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u8+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "python"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "sh"
+            }
+        ]
+    },
+    {
+        "tstmp": "2017-05-31 19:17:29",
+        "data": [
+            {
+                "user": "seonils",
+                "cpu": "13.3",
+                "proc": "sublime_te+"
+            },
+            {
+                "user": "root",
+                "cpu": "6.7",
+                "proc": "Xorg"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kthreadd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "migration/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "migration/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "migration/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/3:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "netns"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "oom_reaper"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kcompactd0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "khugepaged"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kintegrityd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kblockd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "md"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdogd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kswapd0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kthrotld"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ipv6_addrc+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_eh_0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_eh_1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_eh_2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_eh_3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/3:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "jbd2/sda7-8"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "systemd-jo+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "irq/39-DLL+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kmemstick"
+            },
+            {
+                "user": "systemd+",
+                "cpu": "0.0",
+                "proc": "systemd-ti+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cupsd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "thermald"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "accounts-d+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ModemManag+"
+            },
+            {
+                "user": "syslog",
+                "cpu": "0.0",
+                "proc": "rsyslogd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "NetworkMan+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "snapd"
+            },
+            {
+                "user": "lp",
+                "cpu": "0.0",
+                "proc": "dbus"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "irqbalance"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "upowerd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "lightdm"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "agetty"
+            },
+            {
+                "user": "colord",
+                "cpu": "0.0",
+                "proc": "colord"
+            },
+            {
+                "user": "rtkit",
+                "cpu": "0.0",
+                "proc": "rtkit-daem+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "unity-gree+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "(sd-pam)"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-keyr+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "run-system+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ssh-agent"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-fuse"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-dconf"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-ui-gt+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-x11"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi-bus+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi2-re+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-engin+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemctl"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-sett+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bamfdaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "window-sta+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-sess+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dconf-serv+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "pulseaudio"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "libertined"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "syndaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-pane+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nm-applet"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "polkit-gno+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-fall+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nautilus"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-soft+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-udisk+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-gphot+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-goa-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-afc-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-mtp-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-trash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "hud-service"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-term+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "update-not+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "firefox"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "deja-dup-m+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gconfd-2"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-netw+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-dnssd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-meta+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/0:0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "notify-osd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/3:3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "dhclient"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "hci0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u9+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:1"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "plugin_host"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u8+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "python"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "sh"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "top"
+            }
+        ]
+    },
+    {
+        "tstmp": "2017-05-31 19:17:29",
+        "data": [
+            {
+                "user": "seonils",
+                "cpu": "6.7",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "6.7",
+                "proc": "top"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kthreadd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "rcu_bh"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "lru-add-dr+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cpuhp/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "migration/2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "watchdog/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksoftirqd/3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kdevtmpfs"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "khungtaskd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "writeback"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ksmd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "crypto"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ata_sff"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "devfreq_wq"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kauditd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "vmstat"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ecryptfs-k+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "acpi_therm+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "charger_ma+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_1"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_2"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "scsi_tmf_3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "i915/signa+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bioset"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/0:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "ext4-rsv-c+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "systemd-ud+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cfg80211"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "rtsx_usb_m+"
+            },
+            {
+                "user": "whoopsie",
+                "cpu": "0.0",
+                "proc": "whoopsie"
+            },
+            {
+                "user": "message+",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "repowerd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "systemd-lo+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "acpid"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cron"
+            },
+            {
+                "user": "avahi",
+                "cpu": "0.0",
+                "proc": "avahi-daem+"
+            },
+            {
+                "user": "avahi",
+                "cpu": "0.0",
+                "proc": "avahi-daem+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "polkitd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "cups-brows+"
+            },
+            {
+                "user": "systemd+",
+                "cpu": "0.0",
+                "proc": "systemd-re+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "bluetoothd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "agetty"
+            },
+            {
+                "user": "colord",
+                "cpu": "0.0",
+                "proc": "colord"
+            },
+            {
+                "user": "rtkit",
+                "cpu": "0.0",
+                "proc": "rtkit-daem+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "unity-gree+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "(sd-pam)"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-keyr+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "run-system+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ssh-agent"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-fuse"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-dconf"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-ui-gt+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-x11"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi-bus+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dbus-daemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "at-spi2-re+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "ibus-engin+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "systemctl"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-sett+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bamfdaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "indicator-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "window-sta+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-sess+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "dconf-serv+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "pulseaudio"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "libertined"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "syndaemon"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-pane+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nm-applet"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "polkit-gno+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "unity-fall+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "nautilus"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-soft+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-udisk+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "evolution-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-gphot+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-goa-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-afc-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfs-mtp-v+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-trash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "hud-service"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "zeitgeist-+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gnome-term+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "update-not+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "firefox"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "deja-dup-m+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gconfd-2"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-netw+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-dnssd"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gvfsd-meta+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/1:0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/0:0"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "notify-osd"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/3:3"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "dhclient"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "hci0"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u9+"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/2:1"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "bash"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "gitkraken"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "sublime_te+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "plugin_host"
+            },
+            {
+                "user": "root",
+                "cpu": "0.0",
+                "proc": "kworker/u8+"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "python"
+            },
+            {
+                "user": "seonils",
+                "cpu": "0.0",
+                "proc": "sh"
+            }
+        ]
+    }
+]
