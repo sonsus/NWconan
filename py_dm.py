@@ -51,11 +51,17 @@ def invokeTop():
                 obj={}
                 obj["user"]=split[1]            #user=col 1
                 users_list.append(obj["user"])
-                obj["cpu"]=split[8]                #cpu =col 8
+                obj["cpu"]=float(split[8])      #cpu =col 8
                 obj["proc"]=split[11]    #pname=col 11
                 dump_list.append(obj)
             users_list=list(set(users_list))
-            wrap_dict={"tstmp":tstmp, "data":dump_list, "users":users_list}
+            #tstmp dict
+            tstmp_dict={}
+            tstmp_dict["yr"]=int(tstmp[:4])
+            tstmp_dict["month"]=int(tstmp[5:7])
+            tstmp_dict["date"]=int(tstmp[8:10])
+            tstmp_dict["second"]=int(tstmp[11:13])*3600+int(tstmp[14:16])*60+int(tstmp[-2:])
+            wrap_dict={"tstmp":tstmp_dict, "data":dump_list, "users":users_list}
             j.dump(wrap_dict,tj,indent =4)
         return None
 
@@ -98,15 +104,15 @@ def merge_Json(topJson, whoJson): #both param are string
     else:
         with open(mergeJson) as mj: 
             mData=j.load(mj)
-
     #open topJson and whoJson 
     tj, wj= open(topJson), open(whoJson) 
     tData, wData= j.load(tj), j.load(wj) 
-
     #1st: remove sysuser from topJson loaded
+    deathnote=[]
     for i,obj in enumerate(tData["data"]):
         if obj["user"] not in wData["users"]:
-            del tData["data"][i]
+            #del tData["data"][i]
+            deathnote.append(obj)
     #2nd: append idle whoJson users
     for i,user in enumerate(wData["users"]):
         if user not in tData["users"]:
@@ -117,9 +123,11 @@ def merge_Json(topJson, whoJson): #both param are string
 
     #3rd: merge it to mergeJson
     tj_w, mj_w = open(topJson,"w"), open(mergeJson,"w") 
+    for i in range(len(deathnote)):
+        tData["data"].remove(deathnote[i])
     mData.append(tData) 
     del mData[-1]["users"] #now mData==[{"tstmp":tstmp, "data":[obj,obj,...]}] 
-    j.dump(tData, tj_w, indent=4)
+    j.dump(tData, tj_w)
     j.dump(mData, mj_w, indent=4)
     tj_w.close()
     mj_w.close()
@@ -141,9 +149,8 @@ def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
 
 
 def sendJson(Json): # send Json file to http server
-    port=8000
-    conn=http.client.HTTPConnection("localhost/data:{port}".format(port=port))
-    conn.request("POST", "localhost/data:{port}".format(port=[port]), str(j.load(Json)))
+    conn=http.client.HTTPConnection("172.17.10.42", 8004)
+    conn.request("POST", "/data", open(Json))
     response = conn.getresponse()
 
     request_res=response.read()
@@ -158,30 +165,29 @@ def examineSys():
     invokeWho()
     invokeTop()
     merge_Json(topJson,whoJson)
-    checkHeavyUser(mergeJson)
-
-
+#    checkHeavyUser(mergeJson)
 
 
 if __name__=="__main__":
     sb.run("rm mergeJson.json",shell=True)
+    start=time()
     examineSys()
+    sleep(1)
     examineSys()
+    sleep(1)
     examineSys()
     sendJson("mergeJson.json")
-
-
-
-
 '''
+    sb.run("rm mergeJson.json",shell=True)
     start=time()
     while 1: 
         time_elapsed=time()-start
         print("Conan.py: Im here for inspect your resource usage")
         print("trial %s: now let\'s who\'s on the server? (every 5min)"%(int(time_elapsed/300)))
         examineSys()
-        if time_elapsed%86400==0:
-            print("running for %s day(s)"%(time_elapsed/86400))            
+        if (time_elapsed/3600)>=0:
+            print("running for %s hr(s)"%(time_elapsed/3600))            
             sendJson(mergeJson)
+            start=time()
         sleep(300)
 '''

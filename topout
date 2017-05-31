@@ -1,46 +1,47 @@
-top - 19:17:29 up  5:11,  1 user,  load average: 0.69, 0.35, 0.29
-Tasks: 218 total,   1 running, 217 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  8.7 us,  1.3 sy,  0.0 ni, 89.3 id,  0.6 wa,  0.0 hi,  0.1 si,  0.0 st
-KiB Mem :  8075208 total,  3207208 free,  1879884 used,  2988116 buff/cache
-KiB Swap:   819196 total,   819196 free,        0 used.  5622868 avail Mem 
+top - 21:23:32 up  7:17,  1 user,  load average: 0.25, 0.30, 0.29
+Tasks: 225 total,   1 running, 224 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.1 us,  1.1 sy,  0.1 ni, 91.2 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8075208 total,  2506620 free,  2138348 used,  3430240 buff/cache
+KiB Swap:   819196 total,   819196 free,        0 used.  5305324 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 1838 seonils   20   0 1272204 111544  65880 S   6.7  1.4   4:38.02 compiz
- 5036 seonils   20   0 2166592 261636  75828 S   6.7  3.2   3:13.89 gitkraken
- 6035 seonils   20   0   52564   4048   3428 R   6.7  0.1   0:00.01 top
-    1 root      20   0  205336   7604   5344 S   0.0  0.1   0:01.67 systemd
+ 1133 root      20   0  414644  93628  66164 S  13.3  1.2   8:29.36 Xorg
+ 8639 seonils   20   0 1197184 118340  36356 S  13.3  1.5   3:40.61 sublime_text
+11107 seonils   20   0   52564   4056   3436 R  13.3  0.1   0:00.02 top
+ 5036 seonils   20   0 4681504 284876  75652 S   6.7  3.5  14:26.71 gitkraken
+    1 root      20   0  205336   7604   5344 S   0.0  0.1   0:01.75 systemd
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kthreadd
-    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
-    6 root      20   0       0      0      0 S   0.0  0.0   0:00.16 ksoftirqd/0
-    7 root      20   0       0      0      0 S   0.0  0.0   0:17.69 rcu_sched
+    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H
+    6 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0
+    7 root      20   0       0      0      0 S   0.0  0.0   0:30.97 rcu_sched
     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh
     9 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/0
-   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-dr+
-   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.04 watchdog/0
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.08 watchdog/0
    12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0
    13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1
-   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1
-   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/1
-   16 root      20   0       0      0      0 S   0.0  0.0   0:00.03 ksoftirqd/1
-   18 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:+
+   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/1
+   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/1
+   16 root      20   0       0      0      0 S   0.0  0.0   0:00.06 ksoftirqd/1
+   18 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H
    19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/2
-   20 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/2
+   20 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/2
    21 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/2
-   22 root      20   0       0      0      0 S   0.0  0.0   0:00.12 ksoftirqd/2
-   24 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:+
+   22 root      20   0       0      0      0 S   0.0  0.0   0:00.14 ksoftirqd/2
+   24 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0H
    25 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/3
-   26 root      rt   0       0      0      0 S   0.0  0.0   0:00.04 watchdog/3
+   26 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/3
    27 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/3
-   28 root      20   0       0      0      0 S   0.0  0.0   0:00.23 ksoftirqd/3
-   30 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:+
+   28 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/3
+   30 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:0H
    31 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
    32 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns
-   33 root      20   0       0      0      0 S   0.0  0.0   0:00.01 khungtaskd
+   33 root      20   0       0      0      0 S   0.0  0.0   0:00.02 khungtaskd
    34 root      20   0       0      0      0 S   0.0  0.0   0:00.00 oom_reaper
    35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback
    36 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kcompactd0
    37 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
-   38 root      39  19       0      0      0 S   0.0  0.0   0:01.61 khugepaged
+   38 root      39  19       0      0      0 S   0.0  0.0   0:02.22 khugepaged
    39 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 crypto
    40 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd
    41 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
@@ -53,9 +54,9 @@ KiB Swap:   819196 total,   819196 free,        0 used.  5622868 avail Mem
    54 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kswapd0
    55 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 vmstat
    56 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
-   57 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ecryptfs-k+
+   57 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ecryptfs-kthrea
    97 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kthrotld
-   98 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 acpi_therm+
+   98 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 acpi_thermal_pm
    99 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   100 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   101 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
@@ -64,8 +65,8 @@ KiB Swap:   819196 total,   819196 free,        0 used.  5622868 avail Mem
   105 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   106 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   107 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
-  111 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrc+
-  133 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 charger_ma+
+  111 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ipv6_addrconf
+  133 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 charger_manager
   171 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
   174 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_0
   175 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_1
@@ -74,152 +75,158 @@ KiB Swap:   819196 total,   819196 free,        0 used.  5622868 avail Mem
   178 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_2
   179 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_3
   180 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 scsi_tmf_3
-  183 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signa+
-  184 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signa+
-  185 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signa+
-  186 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signa+
+  183 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signal:0
+  184 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signal:1
+  185 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signal:2
+  186 root      -2   0       0      0      0 S   0.0  0.0   0:00.00 i915/signal:4
   189 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
   190 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset
-  192 root       0 -20       0      0      0 S   0.0  0.0   0:00.23 kworker/2:+
-  193 root       0 -20       0      0      0 S   0.0  0.0   0:00.18 kworker/0:+
-  194 root       0 -20       0      0      0 S   0.0  0.0   0:00.07 kworker/3:+
-  197 root       0 -20       0      0      0 S   0.0  0.0   0:00.03 kworker/1:+
-  221 root      20   0       0      0      0 S   0.0  0.0   0:00.55 jbd2/sda7-8
-  222 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-c+
-  261 root      20   0   62840   8680   7976 S   0.0  0.1   0:01.20 systemd-jo+
-  270 root      20   0   48204   5316   2924 S   0.0  0.1   0:01.18 systemd-ud+
-  341 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/39-DLL+
+  192 root       0 -20       0      0      0 S   0.0  0.0   0:00.25 kworker/2:1H
+  193 root       0 -20       0      0      0 S   0.0  0.0   0:00.39 kworker/0:1H
+  194 root       0 -20       0      0      0 S   0.0  0.0   0:00.09 kworker/3:1H
+  197 root       0 -20       0      0      0 S   0.0  0.0   0:00.06 kworker/1:1H
+  221 root      20   0       0      0      0 S   0.0  0.0   0:00.86 jbd2/sda7-8
+  222 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 ext4-rsv-conver
+  261 root      20   0   62840   9472   8764 S   0.0  0.1   0:01.50 systemd-journal
+  270 root      20   0   48204   5316   2924 S   0.0  0.1   0:01.19 systemd-udevd
+  341 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/39-DLL0651:
   410 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 cfg80211
   436 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kmemstick
-  437 root      20   0       0      0      0 D   0.0  0.0   0:02.28 rtsx_usb_m+
-  717 systemd+  20   0  129796   4556   4048 S   0.0  0.1   0:00.05 systemd-ti+
+  437 root      20   0       0      0      0 D   0.0  0.0   0:03.75 rtsx_usb_ms_1
+  717 systemd+  20   0  129796   4556   4048 S   0.0  0.1   0:00.07 systemd-timesyn
   821 whoopsie  20   0  467464  13356  11536 S   0.0  0.2   0:00.04 whoopsie
-  823 root      20   0  106404   7600   6404 S   0.0  0.1   0:00.02 cupsd
-  824 message+  20   0   47588   5584   3540 S   0.0  0.1   0:06.55 dbus-daemon
-  851 root      20   0  183928   9352   8556 S   0.0  0.1   0:01.21 thermald
-  852 root      20   0 1094332  11500   6688 S   0.0  0.1   0:01.07 repowerd
-  853 root      20   0  306764  10804   7720 S   0.0  0.1   0:00.28 accounts-d+
-  854 root      20   0   46648   4712   4088 S   0.0  0.1   0:00.09 systemd-lo+
-  857 root      20   0  349072  11308   7520 S   0.0  0.1   0:00.05 ModemManag+
-  861 root      20   0    4388   1848   1652 S   0.0  0.0   0:13.87 acpid
-  862 syslog    20   0  256416   7724   2788 S   0.0  0.1   0:00.20 rsyslogd
-  863 root      20   0   39496   3412   3124 S   0.0  0.0   0:00.01 cron
-  868 root      20   0  562324  18084  14560 S   0.0  0.2   0:04.18 NetworkMan+
-  874 avahi     20   0   47312   3204   2852 S   0.0  0.0   0:02.10 avahi-daem+
-  877 root      20   0  381920  19620  10204 S   0.0  0.2   0:00.66 snapd
-  982 avahi     20   0   47180    352      0 S   0.0  0.0   0:00.00 avahi-daem+
+  823 root      20   0  106404   7600   6404 S   0.0  0.1   0:00.04 cupsd
+  824 message+  20   0   47652   5728   3540 S   0.0  0.1   0:08.92 dbus-daemon
+  851 root      20   0  183928   9352   8556 S   0.0  0.1   0:01.88 thermald
+  852 root      20   0 1094332  11500   6688 S   0.0  0.1   0:01.36 repowerd
+  853 root      20   0  306764  10804   7720 S   0.0  0.1   0:00.40 accounts-daemon
+  854 root      20   0   46648   4712   4088 S   0.0  0.1   0:00.10 systemd-logind
+  857 root      20   0  349072  11308   7520 S   0.0  0.1   0:00.05 ModemManager
+  861 root      20   0    4388   1848   1652 S   0.0  0.0   0:25.61 acpid
+  862 syslog    20   0  256416   7724   2788 S   0.0  0.1   0:00.25 rsyslogd
+  863 root      20   0   39496   3420   3124 S   0.0  0.0   0:00.02 cron
+  868 root      20   0  562424  18096  14560 S   0.0  0.2   0:06.40 NetworkManager
+  874 avahi     20   0   47312   3204   2852 S   0.0  0.0   0:03.86 avahi-daemon
+  877 root      20   0  381920  19412  10204 S   0.0  0.2   0:01.09 snapd
+  982 avahi     20   0   47180    352      0 S   0.0  0.0   0:00.00 avahi-daemon
   987 lp        20   0   83884   5684   4896 S   0.0  0.1   0:00.00 dbus
-  988 root      20   0  317464  11472   8264 S   0.0  0.1   0:01.08 polkitd
-  992 root      20   0   19620   2352   2092 S   0.0  0.0   0:00.64 irqbalance
-  995 root      20   0  298284  10468   8972 S   0.0  0.1   0:00.42 cups-brows+
- 1026 root      20   0  362704  12600   9072 S   0.0  0.2   0:00.41 upowerd
- 1033 systemd+  20   0   50224   6136   5092 S   0.0  0.1   0:02.80 systemd-re+
+  988 root      20   0  317640  11496   8264 S   0.0  0.1   0:01.32 polkitd
+  992 root      20   0   19620   2352   2092 S   0.0  0.0   0:01.18 irqbalance
+  995 root      20   0  298284  10468   8972 S   0.0  0.1   0:00.58 cups-browsed
+ 1026 root      20   0  362704  12600   9072 S   0.0  0.2   0:00.60 upowerd
+ 1033 systemd+  20   0   50224   6136   5092 S   0.0  0.1   0:03.45 systemd-resolve
  1068 root      20   0  305608   8412   7296 S   0.0  0.1   0:00.02 lightdm
  1116 root      20   0   34392   4584   4152 S   0.0  0.1   0:00.02 bluetoothd
- 1133 root      20   0  417556  95032  67568 S   0.0  1.2   4:52.62 Xorg
  1140 root      20   0   24372   1836   1700 S   0.0  0.0   0:00.00 agetty
- 1148 root      20   0   46412   6568   5896 S   0.0  0.1   0:00.93 wpa_suppli+
+ 1148 root      20   0   46412   6568   5896 S   0.0  0.1   0:01.28 wpa_supplicant
  1252 colord    20   0  336716  16480  10488 S   0.0  0.2   0:00.16 colord
  1270 root      20   0  243564   6656   5824 S   0.0  0.1   0:00.02 lightdm
- 1297 rtkit     21   1  185928   3000   2700 S   0.0  0.0   0:00.16 rtkit-daem+
+ 1297 rtkit     21   1  185928   3000   2700 S   0.0  0.0   0:00.25 rtkit-daemon
  1309 root      10 -10       0      0      0 S   0.0  0.0   0:00.00 krfcommd
- 1313 root      20   0  261024   4632   4180 S   0.0  0.1   0:00.00 unity-gree+
+ 1313 root      20   0  261024   4632   4180 S   0.0  0.1   0:00.00 unity-greeter-s
  1337 seonils   20   0   65524   7120   5688 S   0.0  0.1   0:00.36 systemd
  1338 seonils   20   0  237080   2404      0 S   0.0  0.0   0:00.00 (sd-pam)
- 1346 seonils   20   0  296524   6352   5532 S   0.0  0.1   0:00.10 gnome-keyr+
- 1361 seonils   20   0    4496   1564   1464 S   0.0  0.0   0:00.04 run-system+
- 1380 seonils   20   0   46448   5096   3484 S   0.0  0.1   0:03.41 dbus-daemon
- 1455 seonils   20   0   11128    316      0 S   0.0  0.0   0:00.04 ssh-agent
- 1472 seonils   20   0  456764  14380   7180 S   0.0  0.2   0:36.34 ibus-daemon
- 1512 seonils   20   0  292024   9024   6164 S   0.0  0.1   0:00.10 gvfsd
+ 1346 seonils   20   0  296524   6352   5532 S   0.0  0.1   0:00.19 gnome-keyring-d
+ 1361 seonils   20   0    4496   1564   1464 S   0.0  0.0   0:00.04 run-systemd-ses
+ 1380 seonils   20   0   46448   5184   3484 S   0.0  0.1   0:05.58 dbus-daemon
+ 1455 seonils   20   0   11128    316      0 S   0.0  0.0   0:00.07 ssh-agent
+ 1472 seonils   20   0  457424  15540   7180 S   0.0  0.2   1:05.33 ibus-daemon
+ 1512 seonils   20   0  292024   9024   6164 S   0.0  0.1   0:00.16 gvfsd
  1519 seonils   20   0  431092   9692   6780 S   0.0  0.1   0:00.00 gvfsd-fuse
- 1531 seonils   20   0  296980   8596   7780 S   0.0  0.1   0:00.01 ibus-dconf
- 1539 seonils   20   0  498724  31976  26252 S   0.0  0.4   0:06.47 ibus-ui-gt+
- 1549 seonils   20   0  376832  23876  19636 S   0.0  0.3   0:00.44 ibus-x11
- 1566 seonils   20   0  364824   8632   7780 S   0.0  0.1   0:00.01 at-spi-bus+
- 1586 seonils   20   0   45424   4048   3456 S   0.0  0.1   0:00.93 dbus-daemon
- 1589 seonils   20   0  216060   5244   4708 S   0.0  0.1   0:04.08 at-spi2-re+
- 1630 seonils   20   0  221120   8408   7628 S   0.0  0.1   0:10.20 ibus-engin+
+ 1531 seonils   20   0  296980   8596   7780 S   0.0  0.1   0:00.02 ibus-dconf
+ 1539 seonils   20   0  498724  31996  26252 S   0.0  0.4   0:10.11 ibus-ui-gtk3
+ 1549 seonils   20   0  376832  23876  19636 S   0.0  0.3   0:00.69 ibus-x11
+ 1566 seonils   20   0  364824   8632   7780 S   0.0  0.1   0:00.01 at-spi-bus-laun
+ 1586 seonils   20   0   45424   4048   3456 S   0.0  0.1   0:01.71 dbus-daemon
+ 1589 seonils   20   0  216060   5244   4708 S   0.0  0.1   0:06.81 at-spi2-registr
+ 1630 seonils   20   0  221120   8408   7628 S   0.0  0.1   0:17.64 ibus-engine-sim
  1645 seonils   20   0   49372   5080   4640 S   0.0  0.1   0:00.00 systemctl
- 1660 seonils   20   0  608800  29332  23356 S   0.0  0.4   0:00.57 indicator-+
- 1661 seonils   20   0  373084   8692   7664 S   0.0  0.1   0:00.17 indicator-+
- 1663 seonils   20   0  419344  13792  12168 S   0.0  0.2   0:00.89 indicator-+
- 1664 seonils   20   0 1005808  34680  27068 S   0.0  0.4   0:01.50 unity-sett+
- 1666 seonils   20   0  597700  11440   8200 S   0.0  0.1   0:00.05 indicator-+
- 1667 seonils   20   0  472004  28872  22676 S   0.0  0.4   0:06.99 bamfdaemon
- 1678 seonils   20   0 1347428  31280  26032 S   0.0  0.4   0:00.27 indicator-+
- 1682 seonils   20   0  368600  10524   7584 S   0.0  0.1   0:00.03 indicator-+
- 1683 seonils   20   0  496764  26324  21476 S   0.0  0.3   0:00.46 indicator-+
- 1684 seonils   20   0  389904   9744   8652 S   0.0  0.1   0:00.02 indicator-+
- 1691 seonils   20   0 1029508  12888  11180 S   0.0  0.2   0:00.15 indicator-+
- 1692 seonils   20   0  177104   9664   9028 S   0.0  0.1   0:00.19 window-sta+
- 1704 seonils   20   0  586156  16912  14504 S   0.0  0.2   0:00.10 gnome-sess+
- 1713 seonils   20   0  187592   5176   4556 S   0.0  0.1   0:00.04 dconf-serv+
- 1766 seonils    9 -11 1953156  12412   9380 S   0.0  0.2   0:04.02 pulseaudio
+ 1660 seonils   20   0  608800  29332  23356 S   0.0  0.4   0:00.86 indicator-keybo
+ 1661 seonils   20   0  373084   8692   7664 S   0.0  0.1   0:00.19 indicator-power
+ 1663 seonils   20   0  419344  13792  12168 S   0.0  0.2   0:01.30 indicator-appli
+ 1664 seonils   20   0 1005808  34708  27080 S   0.0  0.4   0:02.38 unity-settings-
+ 1666 seonils   20   0  597700  11440   8200 S   0.0  0.1   0:00.05 indicator-sessi
+ 1667 seonils   20   0  472260  29024  22712 S   0.0  0.4   0:11.27 bamfdaemon
+ 1678 seonils   20   0 1347428  31280  26032 S   0.0  0.4   0:00.37 indicator-datet
+ 1682 seonils   20   0  368600  10524   7584 S   0.0  0.1   0:00.03 indicator-bluet
+ 1683 seonils   20   0  496764  26324  21476 S   0.0  0.3   0:00.72 indicator-print
+ 1684 seonils   20   0  389904   9744   8652 S   0.0  0.1   0:00.02 indicator-messa
+ 1691 seonils   20   0 1029508  12888  11180 S   0.0  0.2   0:00.26 indicator-sound
+ 1692 seonils   20   0  177104   9664   9028 S   0.0  0.1   0:00.27 window-stack-br
+ 1704 seonils   20   0  586156  16912  14504 S   0.0  0.2   0:00.10 gnome-session-b
+ 1713 seonils   20   0  187592   5176   4556 S   0.0  0.1   0:00.05 dconf-service
+ 1766 seonils    9 -11 1953156  12448   9416 S   0.0  0.2   0:04.75 pulseaudio
  1802 seonils   20   0  363192  29372  14640 S   0.0  0.4   0:00.18 libertined
- 1809 seonils   20   0 1144248  26304  21080 S   0.0  0.3   0:00.08 evolution-+
- 1827 seonils   20   0   22352   1068    908 S   0.0  0.0   0:02.19 syndaemon
- 1830 seonils   20   0  880264  34828  28124 S   0.0  0.4   0:00.12 evolution-+
- 1847 seonils   20   0  685248  57376  27768 S   0.0  0.7   0:09.30 unity-pane+
- 1891 seonils   20   0  768224  33820  27584 S   0.0  0.4   0:04.51 nm-applet
- 1892 seonils   20   0  456700  24420  18256 S   0.0  0.3   0:00.44 polkit-gno+
- 1905 seonils   20   0  602028  23368  19208 S   0.0  0.3   0:00.46 unity-fall+
- 1908 seonils   20   0  812464  24520  19516 S   0.0  0.3   0:00.06 evolution-+
- 1909 seonils   20   0  913560  45480  34212 S   0.0  0.6   0:01.44 nautilus
- 1923 seonils   20   0 1015384  80568  28692 S   0.0  1.0   0:02.05 gnome-soft+
- 1931 seonils   20   0  732628  25136  20020 S   0.0  0.3   0:00.04 evolution-+
- 1933 seonils   20   0  719564  24116  17216 S   0.0  0.3   0:00.07 evolution-+
- 1938 seonils   20   0  316272  10656   9060 S   0.0  0.1   0:00.10 gvfs-udisk+
- 1960 root      20   0  393836  10412   8144 S   0.0  0.1   0:01.75 udisksd
- 1971 seonils   20   0  802764  22732  19632 S   0.0  0.3   0:00.04 evolution-+
- 1981 seonils   20   0  287088   6036   5308 S   0.0  0.1   0:00.00 gvfs-gphot+
- 1985 seonils   20   0  274856   4712   4320 S   0.0  0.1   0:00.00 gvfs-goa-v+
- 1993 seonils   20   0  421196   9520   8408 S   0.0  0.1   0:00.01 gvfs-afc-v+
- 1998 seonils   20   0  274888   5488   4876 S   0.0  0.1   0:00.00 gvfs-mtp-v+
- 2003 seonils   20   0  383332   9584   8356 S   0.0  0.1   0:00.02 gvfsd-trash
- 2046 seonils   20   0  443232  39936  19148 S   0.0  0.5   0:15.96 hud-service
- 2088 root      20   0  569192  53060  11732 S   0.0  0.7   0:01.16 fwupd
- 2175 seonils   20   0  465556  20848  16228 S   0.0  0.3   0:00.22 zeitgeist-+
- 2185 seonils   20   0  446808  12584   8732 S   0.0  0.2   0:00.11 zeitgeist-+
- 2193 seonils   20   0  329644  16756  13284 S   0.0  0.2   0:00.13 zeitgeist-+
- 2226 seonils   20   0  759932  42520  30544 S   0.0  0.5   0:23.25 gnome-term+
- 2234 seonils   20   0   31212   5836   3760 S   0.0  0.1   0:00.39 bash
- 2291 seonils   20   0  622332  27628  23180 S   0.0  0.3   0:00.78 update-not+
- 2318 seonils   20   0 3551188 774876 139524 S   0.0  9.6  23:06.19 firefox
- 2352 seonils   20   0  461048   9340   8204 S   0.0  0.1   0:00.04 deja-dup-m+
- 2367 seonils   20   0   78768   5924   5408 S   0.0  0.1   0:00.01 gconfd-2
- 2449 seonils   20   0  383792   9028   8008 S   0.0  0.1   0:00.03 gvfsd-netw+
- 2464 seonils   20   0  379316   7320   6480 S   0.0  0.1   0:00.23 gvfsd-dnssd
- 2916 seonils   20   0   31116   5676   3712 S   0.0  0.1   0:00.04 bash
+ 1809 seonils   20   0 1144248  26304  21080 S   0.0  0.3   0:00.08 evolution-sourc
+ 1827 seonils   20   0   22484   1068    908 S   0.0  0.0   0:03.58 syndaemon
+ 1830 seonils   20   0  880264  34828  28124 S   0.0  0.4   0:00.12 evolution-calen
+ 1838 seonils   20   0 1543912 215600  68248 S   0.0  2.7   8:06.07 compiz
+ 1847 seonils   20   0  686272  58680  27784 S   0.0  0.7   0:16.09 unity-panel-ser
+ 1891 seonils   20   0  899360  33812  27564 S   0.0  0.4   0:07.02 nm-applet
+ 1892 seonils   20   0  456700  24420  18256 S   0.0  0.3   0:00.69 polkit-gnome-au
+ 1905 seonils   20   0  602028  23368  19208 S   0.0  0.3   0:00.74 unity-fallback-
+ 1908 seonils   20   0  812464  24520  19516 S   0.0  0.3   0:00.06 evolution-calen
+ 1909 seonils   20   0  913560  45688  34416 S   0.0  0.6   0:01.85 nautilus
+ 1923 seonils   20   0 1015384  80640  28760 S   0.0  1.0   0:02.56 gnome-software
+ 1931 seonils   20   0  732628  25136  20020 S   0.0  0.3   0:00.04 evolution-addre
+ 1933 seonils   20   0  719564  24116  17216 S   0.0  0.3   0:00.07 evolution-calen
+ 1938 seonils   20   0  316272  10656   9060 S   0.0  0.1   0:00.14 gvfs-udisks2-vo
+ 1960 root      20   0  393836  10424   8144 S   0.0  0.1   0:02.67 udisksd
+ 1971 seonils   20   0  802764  22732  19632 S   0.0  0.3   0:00.04 evolution-addre
+ 1981 seonils   20   0  287088   6036   5308 S   0.0  0.1   0:00.00 gvfs-gphoto2-vo
+ 1985 seonils   20   0  274856   4712   4320 S   0.0  0.1   0:00.01 gvfs-goa-volume
+ 1993 seonils   20   0  421196   9520   8408 S   0.0  0.1   0:00.01 gvfs-afc-volume
+ 1998 seonils   20   0  274888   5488   4876 S   0.0  0.1   0:00.01 gvfs-mtp-volume
+ 2003 seonils   20   0  383332   9584   8356 S   0.0  0.1   0:00.04 gvfsd-trash
+ 2046 seonils   20   0  445660  42380  19148 S   0.0  0.5   0:24.66 hud-service
+ 2088 root      20   0  569192  53060  11732 S   0.0  0.7   0:01.33 fwupd
+ 2175 seonils   20   0  465688  20848  16228 S   0.0  0.3   0:00.34 zeitgeist-datah
+ 2185 seonils   20   0  446880  12876   8796 S   0.0  0.2   0:00.21 zeitgeist-daemo
+ 2193 seonils   20   0  329900  17448  13764 S   0.0  0.2   0:00.22 zeitgeist-fts
+ 2226 seonils   20   0  761544  44588  30568 S   0.0  0.6   0:51.19 gnome-terminal-
+ 2291 seonils   20   0  622332  27728  23180 S   0.0  0.3   0:01.24 update-notifier
+ 2318 seonils   20   0 3564212 829628 142692 S   0.0 10.3  30:24.68 firefox
+ 2352 seonils   20   0  461048   9340   8204 S   0.0  0.1   0:00.04 deja-dup-monito
+ 2367 seonils   20   0   78768   5924   5408 S   0.0  0.1   0:00.02 gconfd-2
+ 2449 seonils   20   0  383792   9028   8008 S   0.0  0.1   0:00.03 gvfsd-network
+ 2464 seonils   20   0  379316   7320   6480 S   0.0  0.1   0:00.31 gvfsd-dnssd
  3193 uuidd     20   0   38936   1532   1316 S   0.0  0.0   0:00.00 uuidd
- 3359 seonils   20   0  201248   8152   5560 S   0.0  0.1   0:00.00 gvfsd-meta+
- 3645 root      20   0       0      0      0 S   0.0  0.0   0:00.56 kworker/0:4
- 3804 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0
- 3828 root      20   0       0      0      0 S   0.0  0.0   0:00.79 kworker/1:1
- 3893 root      20   0       0      0      0 S   0.0  0.0   0:03.44 kworker/0:0
- 3914 seonils   20   0  513780  34772  27100 S   0.0  0.4   0:00.60 notify-osd
- 4005 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/45-mei+
- 4021 root      20   0       0      0      0 S   0.0  0.0   0:00.67 kworker/3:3
+ 3359 seonils   20   0  201248   8152   5560 S   0.0  0.1   0:00.00 gvfsd-metadata
+ 3893 root      20   0       0      0      0 S   0.0  0.0   0:06.19 kworker/0:0
+ 3914 seonils   20   0  513780  34772  27100 S   0.0  0.4   0:00.97 notify-osd
+ 4005 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 irq/45-mei_me
  4082 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ath9k-hwrng
- 4083 root      20   0   16120   3640   2780 S   0.0  0.0   0:00.00 dhclient
- 4131 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
+ 4083 root      20   0   16120   3640   2780 S   0.0  0.0   0:00.01 dhclient
+ 4131 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9:0
  4132 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
  4134 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 hci0
- 4135 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9+
- 4696 root      20   0       0      0      0 S   0.0  0.0   0:02.51 kworker/u8+
- 4700 root      20   0       0      0      0 S   0.0  0.0   0:01.19 kworker/2:1
- 4748 seonils   20   0   31172   5768   3736 S   0.0  0.1   0:00.18 bash
- 4978 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kworker/2:0
- 4983 seonils   20   0 1720532 167252  80336 S   0.0  2.1   0:19.34 gitkraken
+ 4135 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/u9:1
+ 4700 root      20   0       0      0      0 S   0.0  0.0   0:04.72 kworker/2:1
+ 4748 seonils   20   0   31180   5776   3736 S   0.0  0.1   0:00.64 bash
+ 4983 seonils   20   0 1714404 171224  80256 S   0.0  2.1   0:49.75 gitkraken
  4987 seonils   20   0  326264  31352  28152 S   0.0  0.4   0:00.01 gitkraken
- 5011 seonils   20   0  695660 125880  53464 S   0.0  1.6   0:07.00 gitkraken
- 5030 seonils   20   0  986928  75112  57580 S   0.0  0.9   0:00.76 gitkraken
- 5038 seonils   20   0 1054012 100040  50652 S   0.0  1.2   0:01.41 gitkraken
- 5116 root      20   0       0      0      0 S   0.0  0.0   0:01.95 kworker/u8+
- 5419 seonils   20   0 1585220  94388  37996 S   0.0  1.2   1:01.79 sublime_te+
- 5432 seonils   20   0  127840  18308   7096 S   0.0  0.2   0:02.52 plugin_host
- 5798 root      20   0       0      0      0 S   0.0  0.0   0:00.09 kworker/3:1
- 5828 root      20   0       0      0      0 S   0.0  0.0   0:00.08 kworker/u8+
- 5974 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:2
- 6002 seonils   20   0   79584  15828   7956 S   0.0  0.2   0:00.10 python
- 6034 seonils   20   0    4496    760    684 S   0.0  0.0   0:00.00 sh
+ 5011 seonils   20   0  695404 125644  53228 S   0.0  1.6   0:07.64 gitkraken
+ 5030 seonils   20   0  986928  75112  57580 S   0.0  0.9   0:00.81 gitkraken
+ 5038 seonils   20   0 1054012 100300  50652 S   0.0  1.2   0:01.45 gitkraken
+ 6315 root      20   0  333036  13048  11272 S   0.0  0.2   0:00.05 packagekitd
+ 7451 root      20   0       0      0      0 S   0.0  0.0   0:00.10 kworker/2:2
+ 8572 root      20   0       0      0      0 S   0.0  0.0   0:04.34 kworker/0:1
+ 8574 seonils   20   0  677028  21488  14988 S   0.0  0.3   0:00.21 unity-scope-hom
+ 8585 seonils   20   0  666072  24956  16472 S   0.0  0.3   0:00.35 unity-scope-loa
+ 8587 seonils   20   0  664824  17624  12876 S   0.0  0.2   0:00.05 unity-files-dae
+ 8653 seonils   20   0  128356  19368   7468 S   0.0  0.2   0:05.05 plugin_host
+ 8664 seonils   20   0  705000  48480  31384 S   0.0  0.6   0:01.07 gedit
+ 9434 root      20   0       0      0      0 S   0.0  0.0   0:00.69 kworker/3:1
+10021 root      20   0       0      0      0 S   0.0  0.0   0:03.08 kworker/u8:3
+10182 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/3:2
+10222 root      20   0       0      0      0 S   0.0  0.0   0:01.24 kworker/u8:1
+10256 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/1:1
+10257 root      20   0       0      0      0 S   0.0  0.0   0:00.20 kworker/1:3
+10717 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/u8:0
+10781 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:3
+10919 seonils   20   0   31120   5564   3592 S   0.0  0.1   0:00.03 bash
+11036 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0
+11070 seonils   20   0   60724   6048   5348 S   0.0  0.1   0:00.02 ssh
+11076 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kworker/1:0
+11096 seonils   20   0   79340  15664   7868 S   0.0  0.2   0:00.10 python
+11106 seonils   20   0    4496    700    624 S   0.0  0.0   0:00.00 sh
