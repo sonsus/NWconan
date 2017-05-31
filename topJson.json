@@ -1,10 +1,30 @@
 {
-    "tstmp": "2017-05-31 15:12:01",
+    "tstmp": "2017-05-31 18:39:07",
     "data": [
         {
+            "user": "root",
+            "cpu": "6.7",
+            "process_name": "Xorg"
+        },
+        {
             "user": "seonils",
-            "cpu": "6.2",
+            "cpu": "6.7",
+            "process_name": "compiz"
+        },
+        {
+            "user": "seonils",
+            "cpu": "6.7",
+            "process_name": "gnome-term+"
+        },
+        {
+            "user": "seonils",
+            "cpu": "6.7",
             "process_name": "top"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "systemd"
         },
         {
             "user": "root",
@@ -14,7 +34,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kworker/0:+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "ksoftirqd/0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "rcu_sched"
         },
         {
             "user": "root",
@@ -24,7 +54,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "migration/0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "lru-add-dr+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "watchdog/0"
         },
         {
             "user": "root",
@@ -34,7 +74,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "cpuhp/1"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "watchdog/1"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "migration/1"
         },
         {
             "user": "root",
@@ -44,7 +94,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kworker/1:+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "cpuhp/2"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "watchdog/2"
         },
         {
             "user": "root",
@@ -54,7 +114,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "ksoftirqd/2"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "kworker/2:+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "cpuhp/3"
         },
         {
             "user": "root",
@@ -64,7 +134,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "migration/3"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "ksoftirqd/3"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/3:+"
         },
         {
             "user": "root",
@@ -74,7 +154,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "netns"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "khungtaskd"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "oom_reaper"
         },
         {
             "user": "root",
@@ -84,7 +174,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kcompactd0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "ksmd"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "khugepaged"
         },
         {
             "user": "root",
@@ -94,7 +194,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kintegrityd"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kblockd"
         },
         {
             "user": "root",
@@ -104,7 +214,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "md"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "devfreq_wq"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "watchdogd"
         },
         {
             "user": "root",
@@ -114,12 +234,27 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kswapd0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "vmstat"
         },
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "ecryptfs-k+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kthrotld"
         },
         {
             "user": "root",
@@ -149,7 +284,37 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "ipv6_addrc+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "charger_ma+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "scsi_eh_0"
         },
         {
             "user": "root",
@@ -159,12 +324,27 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "scsi_eh_1"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "scsi_tmf_1"
         },
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "scsi_eh_2"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "scsi_tmf_2"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "scsi_eh_3"
         },
         {
             "user": "root",
@@ -184,7 +364,27 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "i915/signa+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "i915/signa+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "bioset"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/2:+"
         },
         {
             "user": "root",
@@ -194,12 +394,27 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kworker/3:+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "kworker/1:+"
         },
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "jbd2/sda7-8"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "ext4-rsv-c+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "systemd-jo+"
         },
         {
             "user": "root",
@@ -219,12 +434,27 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "kmemstick"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "rtsx_usb_m+"
+        },
+        {
+            "user": "systemd+",
+            "cpu": "0.0",
+            "process_name": "systemd-ti+"
         },
         {
             "user": "whoopsie",
             "cpu": "0.0",
             "process_name": "whoopsie"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "cupsd"
         },
         {
             "user": "message+",
@@ -234,7 +464,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "thermald"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "repowerd"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "accounts-d+"
         },
         {
             "user": "root",
@@ -244,7 +484,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "ModemManag+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "acpid"
+        },
+        {
+            "user": "syslog",
+            "cpu": "0.0",
+            "process_name": "rsyslogd"
         },
         {
             "user": "root",
@@ -252,14 +502,29 @@
             "process_name": "cron"
         },
         {
-            "user": "avahi",
+            "user": "root",
             "cpu": "0.0",
-            "process_name": "avahi-daem+"
+            "process_name": "NetworkMan+"
         },
         {
             "user": "avahi",
             "cpu": "0.0",
             "process_name": "avahi-daem+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "snapd"
+        },
+        {
+            "user": "avahi",
+            "cpu": "0.0",
+            "process_name": "avahi-daem+"
+        },
+        {
+            "user": "lp",
+            "cpu": "0.0",
+            "process_name": "dbus"
         },
         {
             "user": "root",
@@ -269,7 +534,17 @@
         {
             "user": "root",
             "cpu": "0.0",
+            "process_name": "irqbalance"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
             "process_name": "cups-brows+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "upowerd"
         },
         {
             "user": "systemd+",
@@ -279,12 +554,7 @@
         {
             "user": "root",
             "cpu": "0.0",
-            "process_name": "kworker/u9+"
-        },
-        {
-            "user": "root",
-            "cpu": "0.0",
-            "process_name": "hci0"
+            "process_name": "lightdm"
         },
         {
             "user": "root",
@@ -297,14 +567,29 @@
             "process_name": "agetty"
         },
         {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "wpa_suppli+"
+        },
+        {
             "user": "colord",
             "cpu": "0.0",
             "process_name": "colord"
         },
         {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "lightdm"
+        },
+        {
             "user": "rtkit",
             "cpu": "0.0",
             "process_name": "rtkit-daem+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "krfcommd"
         },
         {
             "user": "root",
@@ -494,11 +779,6 @@
         {
             "user": "seonils",
             "cpu": "0.0",
-            "process_name": "compiz"
-        },
-        {
-            "user": "seonils",
-            "cpu": "0.0",
             "process_name": "unity-pane+"
         },
         {
@@ -547,6 +827,11 @@
             "process_name": "gvfs-udisk+"
         },
         {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "udisksd"
+        },
+        {
             "user": "seonils",
             "cpu": "0.0",
             "process_name": "evolution-+"
@@ -582,9 +867,9 @@
             "process_name": "hud-service"
         },
         {
-            "user": "seonils",
+            "user": "root",
             "cpu": "0.0",
-            "process_name": "zeitgeist-+"
+            "process_name": "fwupd"
         },
         {
             "user": "seonils",
@@ -599,12 +884,17 @@
         {
             "user": "seonils",
             "cpu": "0.0",
-            "process_name": "gnome-term+"
+            "process_name": "zeitgeist-+"
         },
         {
             "user": "seonils",
             "cpu": "0.0",
             "process_name": "bash"
+        },
+        {
+            "user": "seonils",
+            "cpu": "0.0",
+            "process_name": "sublime_te+"
         },
         {
             "user": "seonils",
@@ -615,11 +905,6 @@
             "user": "seonils",
             "cpu": "0.0",
             "process_name": "update-not+"
-        },
-        {
-            "user": "seonils",
-            "cpu": "0.0",
-            "process_name": "firefox"
         },
         {
             "user": "seonils",
@@ -642,16 +927,6 @@
             "process_name": "gvfsd-dnssd"
         },
         {
-            "user": "root",
-            "cpu": "0.0",
-            "process_name": "kworker/0:1"
-        },
-        {
-            "user": "seonils",
-            "cpu": "0.0",
-            "process_name": "bash"
-        },
-        {
             "user": "seonils",
             "cpu": "0.0",
             "process_name": "bash"
@@ -662,14 +937,44 @@
             "process_name": "ssh"
         },
         {
+            "user": "uuidd",
+            "cpu": "0.0",
+            "process_name": "uuidd"
+        },
+        {
+            "user": "seonils",
+            "cpu": "0.0",
+            "process_name": "gvfsd-meta+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/0:4"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/1:0"
+        },
+        {
             "user": "root",
             "cpu": "0.0",
             "process_name": "kworker/1:1"
         },
         {
-            "user": "uuidd",
+            "user": "root",
             "cpu": "0.0",
-            "process_name": "uuidd"
+            "process_name": "kworker/0:0"
+        },
+        {
+            "user": "seonils",
+            "cpu": "0.0",
+            "process_name": "notify-osd"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "irq/45-mei+"
         },
         {
             "user": "root",
@@ -679,12 +984,37 @@
         {
             "user": "root",
             "cpu": "0.0",
-            "process_name": "kworker/2:0"
+            "process_name": "ath9k-hwrng"
         },
         {
-            "user": "seonils",
+            "user": "root",
             "cpu": "0.0",
-            "process_name": "gvfsd-meta+"
+            "process_name": "dhclient"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/u9+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "hci0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "hci0"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/u9+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/u8+"
         },
         {
             "user": "seonils",
@@ -717,9 +1047,67 @@
             "process_name": "python"
         },
         {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/u8+"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/2:1"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/3:1"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/2:2"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/2:3"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/u8+"
+        },
+        {
+            "user": "seonils",
+            "cpu": "0.0",
+            "process_name": "bash"
+        },
+        {
+            "user": "root",
+            "cpu": "0.0",
+            "process_name": "kworker/2:0"
+        },
+        {
+            "user": "seonils",
+            "cpu": "0.0",
+            "process_name": "python"
+        },
+        {
             "user": "seonils",
             "cpu": "0.0",
             "process_name": "sh"
         }
+    ],
+    "users": [
+        "seonils",
+        "avahi",
+        "whoopsie",
+        "message+",
+        "uuidd",
+        "lp",
+        "colord",
+        "syslog",
+        "root",
+        "systemd+",
+        "rtkit"
     ]
 }

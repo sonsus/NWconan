@@ -84,7 +84,7 @@ def invokeWho():
         return None      
 
     sb.run("who > whoout", shell=True)
-    whoJson=who_parse("whoout")
+    who_parse("whoout")
     return None
 
 
@@ -131,9 +131,9 @@ def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
         mData=j.load(mj)       
         for i in range(3):
             rank=i
-            user=mData[-1]["data"][j]["user"]
-            cpu =mData[-1]["data"][j]["cpu"] + "%"
-            proc=mData[-1]["data"][j]["proc"]
+            user=mData[-1]["data"][i]["user"]
+            cpu =mData[-1]["data"][i]["cpu"] + "%"
+            proc=mData[-1]["data"][i]["proc"]
             if not isfile("msg.txt"): 
                 with open(msg.txt, "w") as msg:
                     msg.write("To %s (rank=%s): your process %s using %s of the cpu resource \n"%(user,rank,proc,cpu)) 
@@ -150,12 +150,12 @@ def sendJson(Json): # send Json file to http server
     print(request_res)
     conn.close()
 
-
     return None 
 
 
 
-def examineSys(topJson, whoJson, mergeJson):
+def examineSys():
+    topJson, whoJson, mergeJson = "topJson.json", "whoJson.json", "mergeJson.json"
     invokeWho()
     invokeTop()
     mergeJson(topJson,whoJson)
@@ -166,13 +166,12 @@ def examineSys(topJson, whoJson, mergeJson):
 
 if __name__=="__main__":
     sb.run("rm mergeJson.json",shell=True)
-    topJson, whoJson, mergeJson = "topJson.json", "whoJson.json", "mergeJson.json"
-    start=time.time()
+    start=time()
     while 1: 
-        print("Conan.py: Im here for saving justice on resource")
-        examineSys(topJson, whoJson, mergeJson)
-        time_elapsed=time.time()-start
+        print("Conan.py: Im here for inspect your resource usage")
+        examineSys()
+        time_elapsed=time()-start
         if time_elapsed%86400==0:
             print("running for %s day(s)"%(time_elapsed/86400))            
             sendJson(mergeJson)
-        time.sleep(500)
+        sleep(500)
