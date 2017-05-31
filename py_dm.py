@@ -1,12 +1,11 @@
 #python_daemon
 #conan.py
 import subprocess as sb
-import shutil as sh
 import json as j
-import http
+import http.client
 import datetime as dt
-from os.path import isfile, getsize
-from time import sleep
+from os.path import isfile
+from time import sleep, time
 
 
 '''
@@ -126,38 +125,54 @@ def mergeJson(topJson, whoJson): #both param are string
     mj_w.close()
 
 
-def checkHeavyUser(topJson, whoJson): #Json==filename(str)==mergeJson.json
-    with open(topJson) as tj:
-        tData=j.load(tj)
-    with open(whoJson) as wj:
-        wData=w.load(wj)
-    #to the top three cpu bruisers, send msg if they are not sysusers.
-    for i in range(3):
-        user=tj["data"][i]["user"]
-        if user in wData["users"]:
+def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
+    #to the top three heavy users, send msg
+    with open(mergeJson) as mj:
+        mData=j.load(mj)       
+        for i in range(3):
+            rank=i
+            user=mData[-1]["data"][j]["user"]
+            cpu =mData[-1]["data"][j]["cpu"] + "%"
+            proc=mData[-1]["data"][j]["proc"]
             if not isfile("msg.txt"): 
                 with open(msg.txt, "w") as msg:
-                    msg.write("hey you are exploting too much! %s \n"%user)
+                    msg.write("To %s (rank=%s): your process %s using %s of the cpu resource \n"%(user,rank,proc,cpu)) 
             sb.run("cat msg.txt | write %s"%user, shell =True) 
-
-    return None 
 
 
 def sendJson(Json): # send Json file to http server
-    #send cumulated Json
+    port=8000
+    conn=http.client.HTTPConnection("localhost/data:{port}".format(port))
+    conn.request("POST", "localhost/data:{port}".format(port), str(j.load(Json)))
+    response = conn.getresponse()
+
+    request_res=response.read()
+    print(request_res)
+    conn.close()
+
+
     return None 
 
 
 
-def examineSys():
+def examineSys(topJson, whoJson, mergeJson):
     invokeWho()
     invokeTop()
-    mergeJson("topJson.json","whoJson.json")
-    checkHeavyUser()
-    sendJson()
+    mergeJson(topJson,whoJson)
+    checkHeavyUser(mergeJson)
+
 
 
 
 if __name__=="__main__":
     sb.run("rm mergeJson.json",shell=True)
-    for i in range(4): examineSys()
+    topJson, whoJson, mergeJson = "topJson.json", "whoJson.json", "mergeJson.json"
+    start=time.time()
+    while 1: 
+        print("Conan.py: Im here for saving justice on resource")
+        examineSys(topJson, whoJson, mergeJson)
+        time_elapsed=time.time()-start
+        if time_elapsed%86400==0:
+            print("running for %s day(s)"%(time_elapsed/86400))            
+            sendJson(mergeJson)
+        time.sleep(500)
