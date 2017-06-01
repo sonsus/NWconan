@@ -1,3 +1,4 @@
+#!/bin/python3.5
 #python_daemon
 #conan.py
 import subprocess as sb
@@ -46,7 +47,7 @@ def invokeTop():
         dump_list=[]
         users_list=[]
         with open("topJson.json", "w") as tj:
-            for i in range(8,len(lines_list)):                 
+            for i in range(8,len(lines_list)-1): 
                 split=lines_list[i].split()
                 obj={}
                 obj["user"]=split[1]            #user=col 1
@@ -65,7 +66,7 @@ def invokeTop():
             j.dump(wrap_dict,tj,indent =4)
         return None
 
-    sb.run("top -o %CPU -n 1 -b>topout", shell=True)
+    sb.run("top -n 1 -b>topout", shell=True)
     tstmp=str(dt.datetime.now()).split(".")[0] # yr-mon-dat hr:min:sec
     top_parse("topout",tstmp)
     return None
@@ -121,6 +122,7 @@ def merge_Json(topJson, whoJson): #both param are string
     wj.close()
     tj.close()
 
+<<<<<<<
     #3rd: merge it to mergeJson
     tj_w, mj_w = open(topJson,"w"), open(mergeJson,"w") 
     for i in range(len(deathnote)):
@@ -192,3 +194,77 @@ if __name__=="__main__":
             start=time()
         sleep(300)
 '''
+=======
+    #3rd: merge it to mergeJson
+    tj_w, mj_w = open(topJson,"w"), open(mergeJson,"w") 
+    for i in range(len(deathnote)):
+        tData["data"].remove(deathnote[i])
+    mData.append(tData) 
+    del mData[-1]["users"] #now mData==[{"tstmp":tstmp, "data":[obj,obj,...]}] 
+    j.dump(tData, tj_w)
+    j.dump(mData, mj_w)
+    tj_w.close()
+    mj_w.close()
+
+
+def checkHeavyUser(mergeJson): #Json==filename(str)==mergeJson.json
+    #to the top three heavy users, send msg
+    with open(mergeJson) as mj:
+        mData=j.load(mj)       
+        for i in range(3):
+#            rank=i
+            user=mData[-1]["data"][i]["user"]
+            cpu =mData[-1]["data"][i]["cpu"]
+            proc=mData[-1]["data"][i]["proc"]
+            if cpu>70: 
+                with open("msg.txt", "w") as msg:
+                    msg.write("Warning to %s: your process %s using %s of the cpu resource \n"%(user,proc,str(cpu)+"%")) 
+            sb.run("cat msg.txt | write %s"%user, shell =True) 
+
+
+def sendJson(Json): # send Json file to http server
+    conn=http.client.HTTPConnection("172.17.10.42", 8004)
+    conn.request("POST", "/data", open(Json))
+    response = conn.getresponse()
+
+    request_res=response.read()
+    print(request_res)
+    conn.close()
+    return None 
+
+
+
+def examineSys():
+    topJson, whoJson, mergeJson = "topJson.json", "whoJson.json", "mergeJson.json"
+    invokeWho()
+    invokeTop()
+    merge_Json(topJson,whoJson)
+#    checkHeavyUser(mergeJson)
+
+
+if __name__=="__main__":
+    sb.run("rm mergeJson.json",shell=True)
+    start=time()
+    while 1: 
+        time_elapsed=time()-start
+        print("Conan.py: Im here for inspect your resource usage")
+        print("trial %s: now let\'s who\'s on the server? (every 5min)"%(int(time_elapsed/300)))
+        examineSys()
+        if int(time_elapsed/3600)>0:
+            print("running for %s hr(s)"%(int(time_elapsed/3600)))            
+            sendJson("mergeJson.json")
+            start=time()
+            sb.run("rm mergeJson.json",shell=True)
+        sleep(300)
+'''
+    sb.run("rm mergeJson.json",shell=True)
+    start=time()
+    examineSys()
+    sleep(1)
+    examineSys()
+    sleep(1)
+    examineSys()
+    sendJson("mergeJson.json")
+'''
+
+>>>>>>>
